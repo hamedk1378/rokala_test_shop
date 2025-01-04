@@ -93,3 +93,10 @@ http://127.0.0.1:8000/admin/
 Login using the superuser credentials you created earlier.
 
 ---
+
+## Database Design
+
+For a better understanding of the database structure, refer to the **database diagram** located in the root of the project:  
+`database_diagram.png`
+
+---

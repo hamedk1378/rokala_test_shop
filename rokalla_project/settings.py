@@ -49,6 +49,7 @@ INSTALLED_APPS = [
     'allauth.socialaccount',
     'dj_rest_auth',
     'dj_rest_auth.registration',
+    'django_extensions',
 
 
     #
@@ -179,4 +180,9 @@ SWAGGER_SETTINGS = {
     'LOGIN_URL': '/accounts/login/',
     'LOGOUT_URL': '/accounts/logout/',
     'JSON_EDITOR': True,
+}
+
+GRAPH_MODELS = {
+  'all_applications': True,
+  'group_models': True,
 }
